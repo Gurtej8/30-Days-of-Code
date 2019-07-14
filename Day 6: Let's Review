@@ -1,0 +1,17 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+
+t=int(input())
+for i in range(0,t):
+     s=str(input())
+     l=len(s)
+     for j in range(0,l):
+          if j%2==0:
+              print(s[j],end='')
+     print(" ", end='')
+
+     for j in range(0, l):
+        if j % 2 != 0:
+            print(s[j], end='')
+
+     print("")
+          
